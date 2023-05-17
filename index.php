@@ -19,7 +19,7 @@ require_once __DIR__ . "/Database/db.php";
     <div class="container">
         <!-- Row -->
         <div class="row row-cols-3 g-5">
-            <?php foreach ($dogs as $key => $dog) {
+            <?php foreach ($animals as $key => $animal) {
                 include __DIR__ . "/Partials/card.php";
             } ?>
         </div>
