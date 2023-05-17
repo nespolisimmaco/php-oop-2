@@ -1,7 +1,7 @@
 <?php
 class Categoria
 {
-    private $animale;
+    public $animale;
     private $razza;
     private $taglia;
 

@@ -1,0 +1,41 @@
+/* RESET */
+img {
+    max-width: 100%;
+}
+
+/* Card */
+.card {
+    position: relative;
+}
+
+.card-img-top {
+    height: 330px;
+    width: 300px;
+}
+
+.card-body {
+    background-color: lightgrey;
+}
+
+.marca {
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.prezzo {
+    color: red;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin: 5px 0;
+}
+
+.articolo {
+    font-size: 1.1rem;
+    margin: 5px 0;
+}
+
+.icona {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
