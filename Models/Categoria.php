@@ -5,10 +5,10 @@ class Categoria
     private $razza;
     private $taglia;
 
-    function __construct($_animale, $_razza, $_taglia)
+    function __construct($_animale, $_taglia, $_razza = "")
     {
         $this->animale = $_animale;
-        $this->razza = $_razza;
         $this->taglia = $_taglia;
+        $this->razza = $_razza;
     }
 }
