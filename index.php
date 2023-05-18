@@ -26,6 +26,22 @@ require_once __DIR__ . "/Database/db.php";
             <?php foreach ($animals as $key => $animal) {
                 include __DIR__ . "/Partials/card.php";
             } ?>
+            <!-- Accessori -->
+            <?php foreach ($accessori as $key => $accessorio) { ?>
+                <!-- Column -->
+                <div class="col">
+                    <!-- Card -->
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h3><?php echo $accessorio->nome ?></h3>
+                            <div class="colore"><?php echo $accessorio->getColore() ?></div>
+                            <div class="eta"><?php echo $accessorio->getEta() ?></div>
+                        </div>
+                    </div>
+                    <!-- End Card -->
+                </div>
+                <!-- End Column -->
+            <?php } ?>
         </div>
         <!-- End Row -->
     </div>
