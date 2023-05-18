@@ -3,6 +3,10 @@ img {
     max-width: 100%;
 }
 
+body {
+    background-color: #A4BAB7;
+}
+
 /* Card */
 .card {
     position: relative;
